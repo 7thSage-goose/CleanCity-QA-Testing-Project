@@ -1,7 +1,9 @@
-# Test Plan: CleanCity WebApp.
+# Test Plan: CleanCity -Waste Pickup.
 **Group Name:** [The Preservation]
 
 **Date:** 01-07-2025
+
+**Scheduler:** Test Strategy (Week 1)
 
 ---
 
@@ -31,6 +33,11 @@ Verify that:
 ---
 
 ## Test Environment and Tools
+### Test Environments
+- Browsers: Chrome, Firefox, Safari, Edge
+- Devices: Desktop (Windows, macOS), Mobile (Android, iOS)
+- Network: 3G, 4G, WiFi
+
 ### Group Member: Lerato Moloi
 > **Testing Device:**
 > 
@@ -61,6 +68,7 @@ Verify that:
 ---
 
 ## Defect Reporting Standard
+### Bug Report Template
 ```markdown
 **Title**: Login with Invalid Credentials Shows No Feedback
 **Description**: Logging in with invalid credentials does not give an Error message and instead resets the form.
@@ -75,6 +83,17 @@ Verify that:
 **Severity**: Major 
 **Priority**: High
 ```
+### Testing Types
+ Type             | Focus Areas |
+|------------------|-------------|
+| Functional       | Core features, input validations |
+| Usability        | Navigation flow, UI clarity |
+| Performance      | Page load times, responsiveness |
+| Compatibility    | Cross-browser & responsive testing |
+| Accessibility    | WCAG 2.1, screen reader support |
+| Security         | Input sanitization, localStorage data handling |
+
+
 
 End of Test_Plan
 
