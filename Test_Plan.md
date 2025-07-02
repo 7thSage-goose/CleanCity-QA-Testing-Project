@@ -64,7 +64,7 @@ Verify that:
 ```markdown
 **Title**: Login with Invalid Credentials Shows No Feedback
 **Description**: Logging in with invalid credentials does not give an Error message and instead resets the form.
-**Environment**: Chrome
+**Environment**: Chrome Desktop
 **Steps to Reproduce**:  
 1. Go to login page  
 2. Enter invalid credentials 
